@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>App 根组件</h1>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,6 +10,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
 </style>
